@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form activity</title>
+</head>
+<body>
+	<h1>University of the Cordilleras</h1>
+	<form action="UC-ID/name">
+		Last Name: <input type="text" name="Lname" size="20"><br>
+		First Name: <input type="text" name="Fname" size="20"><br>
+		ID Number: <input type="text" name="id" size="20"><br>
+
+		<h3>Course</h3>
+		<select name="course">
+			<option selected="selected">Default</option>
+			<option>IT</option>
+			<option>Engineering</option>
+			<option>Education</option>
+			<option>Medical</option>
+			<option>Culinary</option>
+		</select><br>
+
+		<h3>IT</h3>
+		<input type="radio" name="it" value="Web track">Web track<br>
+		<input type="radio" name="it" value="Net sec">Net sec<br>
+		<input type="radio" name="it" value="ERP">ERP<br>
+
+		<h3>Engineering</h3>
+		<input type="radio" name="eng" value="CE">Civil Engineering<br>
+		<input type="radio" name="eng" value="ME">Mechanical Engineering<br>
+		<input type="radio" name="eng" value="ElE">Electrical Engineering<br>
+		<input type="radio" name="eng" value="SE">Structural Engineering<br>
+
+		<h3>Education</h3>
+		<input type="radio" name="ed" value="BEED">Elementary Education<br>
+		<input type="radio" name="ed" value="BSED">Secondary Education<br>
+
+		<h3>Medical</h3>
+		<input type="radio" name="med" value="Phr">Pharmacy<br>
+		<input type="radio" name="med" value="MT">Medical Technology<br>
+		<input type="radio" name="med" value="Nrs">Nursing<br>
+		<input type="radio" name="med" value="RT">Radiologic Technology<br>
+		<input type="radio" name="med" value="bg">Biology<br>
+		<input type="radio" name="med" value="psy">Pyschology<br>
+		<input type="radio" name="med" value="ND">Nutrition and Dietetics<br>
+
+		<h3>Information</h3>
+		Address: <input type="text" name="address" size="20"><br>
+		Birthdate: <input type="text" name="bdate" size="20"><br>
+
+		<input type="submit" name="search">
+	</form>
+
+</body>
+</html>
